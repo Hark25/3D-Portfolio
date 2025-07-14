@@ -1,6 +1,6 @@
 const Button = ({text, className, id}) => {
     return ( 
-        <a className={`${className ?? ''} cta-wrapper`}>
+        <a className={`${className ?? ''} cta-wrapper`} id={id}>
             <div className="cta-button group">
                 <div className="bg-circle"/>
 
@@ -16,3 +16,4 @@ const Button = ({text, className, id}) => {
 }
  
 export default Button;
+ 
