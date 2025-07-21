@@ -32,7 +32,7 @@ const counterItems = [
   { value: 2, suffix: "+", label: "Years of Experience" },
   { value: 1, suffix: "+", label: "Satisfied Clients" },
   { value: 5, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  //{ value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
 const logoIconsList = [
