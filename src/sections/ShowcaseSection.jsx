@@ -11,7 +11,7 @@ const ShowcaseSection = () => {
     const project2Ref = useRef(null);
     const project3Ref = useRef(null);
 
-    
+    //animation for showcase cards
     useGSAP(() => {
 
         const projects = [project1Ref.current, project2Ref.current, project3Ref.current];
@@ -44,10 +44,13 @@ const ShowcaseSection = () => {
 
     }, []);
 
+    //Left side: main showcase card
+    //Right side: 2 minor project showcase
     return ( 
         <section id="work" ref={sectionRef} className="app-showcase">
             <div className="w-full">
                 <div className="showcaselayout">
+
                     {/*LEFT SIDE*/}
                     <div className="first-project-wrapper" ref={project1Ref}>
                         <div className="image-wrapper">
@@ -60,6 +63,7 @@ const ShowcaseSection = () => {
                             </p>
                         </div>
                     </div>
+
                     {/*RIGHT SIDE*/}
                     <div className="project-list-wrapper overflow-hidden">
                         <div className="project" ref={project2Ref}>
@@ -75,6 +79,7 @@ const ShowcaseSection = () => {
                             <h2>YC Directory - Start-Up Showcase App</h2>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>

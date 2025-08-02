@@ -1,4 +1,5 @@
 const Button = ({text, className, id}) => {
+    //simple button for scrolling
     return ( 
         //scroll section of button
         <a 

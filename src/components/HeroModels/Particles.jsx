@@ -1,6 +1,8 @@
 import { useRef, useMemo } from "react";
 import { useFrame } from "@react-three/fiber";
 
+//create the particles for the 3d room model
+
 const Particles = ({ count = 200 }) => {
   const mesh = useRef();
 

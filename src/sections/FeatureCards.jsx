@@ -1,5 +1,6 @@
 import { abilities } from "../constants";
 
+//Very simple cards with infomation from index.js
 const FeatureCards = () => {
     return ( 
         

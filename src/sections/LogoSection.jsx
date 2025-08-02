@@ -1,5 +1,6 @@
 import { logoIconsList } from "../constants";
 
+//animation for loco strip
 const LogoIcon = ({ icon }) => {
     return (
     <div className="flex-none flex-center marquee-item">
@@ -7,6 +8,8 @@ const LogoIcon = ({ icon }) => {
     </div>
 )}
 
+//Three strips of logos for on big strip
+//The strips will animate off screen and reset, but repeat strips are need to keep animation goin on user screen.
 const LogoSection = () => {
     return ( 
         <div className="md:my-20 my-10 relative">
@@ -15,6 +18,9 @@ const LogoSection = () => {
 
             <div className="marquee h-52">
                 <div className="marquee-box md:gap-12 gap-5">
+                    {logoIconsList.map((icon) => (
+                        <LogoIcon key={icon.name} icon={icon}/>
+                    ))}
                     {logoIconsList.map((icon) => (
                         <LogoIcon key={icon.name} icon={icon}/>
                     ))}

@@ -4,6 +4,7 @@ import { EffectComposer, SelectiveBloom } from "@react-three/postprocessing";
 import { BlendFunction } from "postprocessing";
 import * as THREE from "three";
 
+//Room file for 3d 
 export function Room(props) {
   const { nodes, materials } = useGLTF("assets/public/models/optimized-room.glb");
   const screensRef = useRef();

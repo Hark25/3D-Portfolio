@@ -1,5 +1,7 @@
 import React from 'react';
 import * as THREE from 'three';
+
+//creates the lights for the 3d model
 const HeroLights = () => {
     return ( 
         <>

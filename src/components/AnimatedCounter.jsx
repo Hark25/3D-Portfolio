@@ -2,6 +2,7 @@ import React from 'react';
 import { counterItems } from '../constants';
 import CountUp from 'react-countup';
 
+//counter for cards to count up to value set
 const AnimatedCounter = () => {
     return ( 
         <div id="counter" className='padding-x-lg xl:mt-0 mt-32'>
