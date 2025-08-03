@@ -54,12 +54,12 @@ const ShowcaseSection = () => {
                     {/*LEFT SIDE*/}
                     <div className="first-project-wrapper" ref={project1Ref}>
                         <div className="image-wrapper">
-                            <img src="/assets/public/images/project1.png" alt="Ryde"/>
+                            <img src="/assets/public/images/project4.png" alt="Ryde"/>
                         </div>
                         <div className="text-content">
-                            <h2>On-Demand Rides Made Simple with a Powerful, User-Friendly App called Ryde</h2>
+                            <h2>Modern Movie Web Application With Full Movie Search Functionality and Trending Section that Displays Top Searched Movies</h2>
                             <p className="text-white-50 md:text-xl">
-                                 An App built with React Native, Expo, & tailwindCSS for a fast User-Friendly experience
+                                 An App built with React, Appwrite, & tailwindCSS for a fast User-Friendly experience
                             </p>
                         </div>
                     </div>
