@@ -6,9 +6,9 @@ import * as THREE from "three";
 
 //Room file for 3d 
 export function Room(props) {
-  const { nodes, materials } = useGLTF("assets/public/models/optimized-room.glb");
+  const { nodes, materials } = useGLTF("/models/optimized-room.glb");
   const screensRef = useRef();
-  const matcapTexture = useTexture("assets/public/images/textures/mat1.png");
+  const matcapTexture = useTexture("/images/textures/mat1.png");
 
   const curtainMaterial = new THREE.MeshPhongMaterial({
     color: "#d90429",
@@ -170,4 +170,4 @@ export function Room(props) {
   );
 }
 
-useGLTF.preload("assets/public/models/optimized-room.glb");
+useGLTF.preload("/models/optimized-room.glb");

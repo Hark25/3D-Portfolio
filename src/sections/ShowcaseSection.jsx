@@ -54,7 +54,7 @@ const ShowcaseSection = () => {
                     {/*LEFT SIDE*/}
                     <div className="first-project-wrapper" ref={project1Ref}>
                         <div className="image-wrapper">
-                            <img src="/assets/public/images/project4.png" alt="Ryde"/>
+                            <img src="/images/Project4.png" alt="Ryde"/>
                         </div>
                         <div className="text-content">
                             <h2>Modern Movie Web Application With Full Movie Search Functionality and Trending Section that Displays Top Searched Movies</h2>
@@ -68,15 +68,15 @@ const ShowcaseSection = () => {
                     <div className="project-list-wrapper overflow-hidden">
                         <div className="project" ref={project2Ref}>
                             <div className="image-wrapper bg-[#ffefdb]">
-                                <img src="/assets/public/images/project2.png" alt="Library Management Platform" />
+                                <img src="/images/project6.png" alt="Library Management Platform" />
                             </div>
-                            <h2>Library Management Platform</h2>
+                            <h2>Subscription Tracker API</h2>
                         </div>
                         <div className="project" ref={project3Ref}>
                             <div className="image-wrapper bg-[#ffe7db]">
-                                <img src="/assets/public/images/project3.png" alt="YC Directory" />
+                                <img src="/images/Project5.png" alt="YC Directory" />
                             </div>
-                            <h2>YC Directory - Start-Up Showcase App</h2>
+                            <h2>The Game of the Amazons - Made with Python</h2>
                         </div>
                     </div>
 

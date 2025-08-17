@@ -19,7 +19,7 @@ const App = () => {
             <FeatureCards /> {/* Feature skills */}
             <ExperienceSection /> {/* Experience timeline */}
             <TechStack /> {/* TechStack showcase */}
-            <Testimonials /> {/* Testimonials/customer feedback */}
+            {/* <Testimonials />  Testimonials/customer feedback */}
             <Contact /> {/* Contact Me */}
             <Footer /> {/* Footer */}
         </>
